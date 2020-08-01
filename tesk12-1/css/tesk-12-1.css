@@ -39,20 +39,20 @@ body header .header-photo {
   height: 49px;
 }
 body header .header-name {
+  font-size: 1.8rem;
+  color: white;
   position: absolute;
   left: 11.5rem;
   top: 10rem;
-  font-size: 1.8rem;
   font-weight: 700;
-  color: #fff;
 }
 body header .header-address {
+  font-size: 1.2rem;
+  color: white;
   position: absolute;
   top: 13.4rem;
   left: 11.5rem;
-  font-size: 1.2rem;
   font-weight: 700;
-  color: #fff;
 }
 body main .main-title {
   border-bottom: 0.1rem solid #e1e5e7;
@@ -66,11 +66,10 @@ body main .main-title .main-title-word {
 body main .main-top {
   margin-left: 1.6rem;
   padding-left: 1.4rem;
-  border-bottom: 0.1rem solid #e1e5e7;
 }
 body main .main-top .main-top-border {
   padding-right: 1rem;
-  border-right: 0.2rem solid #e1e5e7;
+  border: 5px solid #5fc0cd;
 }
 body main .main-top p {
   padding-left: 0.5rem;
@@ -85,15 +84,15 @@ body main .main-top img {
 body main .main-detailed-box {
   margin-left: 1.6rem;
   line-height: 4rem;
-  border-bottom: 0.1rem solid #e1e5e7;
+  border: 1px solid #999999;
 }
 body main .main-detailed-box .main-detailed-time {
   padding-left: 1.4rem;
   padding-right: 0.8rem;
   font-size: 1.4rem;
   font-weight: 700;
-  color: #999999;
   border-right: 0.2rem solid #e1e5e7;
+  color: #999999;
 }
 body main .main-detailed-box .main-detailed-word {
   padding-left: 1rem;
@@ -101,10 +100,10 @@ body main .main-detailed-box .main-detailed-word {
   font-size: 1.4rem;
 }
 body main .main-detailed-box .main-detailed-money {
+  color: red;
   padding-left: 1rem;
   font-weight: 700;
   font-size: 1.4rem;
-  color: #e26163;
 }
 body main .main-detailed-bottom {
   display: flex;
@@ -142,23 +141,23 @@ body footer {
   bottom: 0;
 }
 body footer .footer-message {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #5fc0fd;
   width: 45%;
   height: 4.5rem;
   background-color: #fff;
-  font-size: 1.7rem;
-  color: #5fc0fd;
-  font-weight: 700;
   border-radius: 0.5rem;
   border: 0.1rem solid #5fc0fd;
 }
 body footer .footer-phone {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
   margin-left: 0.5rem;
   width: 45%;
   height: 4.5rem;
   background-color: #5fc0fd;
-  font-size: 1.7rem;
-  color: #fff;
-  font-weight: 700;
   border-radius: 0.5rem;
   border: 0.1rem solid #5fc0fd;
 }
